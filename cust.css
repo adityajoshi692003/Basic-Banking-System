@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(203, 182, 210, 0.6), rgba(206, 157, 244, 0.5)),url(hist.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    width: 45px;
+    cursor: pointer;
+}
+
+.bg-light{
+    background-color: #f2e9e4!important;
+}
+
+.navbar-brand{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    color: #5f6368!important;
+}
+
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+
+.my-info{
+    padding: 2rem 5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: darkmagenta!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+.btn-info:hover{
+    background-color:deeppink!important;
+}
+
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid darkmagenta;
+    color: #fff;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color:darkorchid;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer .langauge-btn{
+    color:darkorchid;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.copyright-text{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: darkorchid;
+}
